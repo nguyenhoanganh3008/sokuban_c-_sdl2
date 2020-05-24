@@ -1,0 +1,30 @@
+﻿Build started 5/6/2020 9:22:16 AM.
+     1>Project "D:\GameSokoban\sokoban_with_c-SDL2.0-master\GameSDl2\GameSDl2.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\Visual Studio 20122\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\GameSDl2.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>d:\gamesokoban\sokoban_with_c-sdl2.0-master\gamesdl2\commonfunc.h(47): warning C4091: 'typedef ' : ignored on left of 'Input' when no variable is declared
+     1>d:\gamesokoban\sokoban_with_c-sdl2.0-master\gamesdl2\commonfunc.h(56): warning C4091: 'typedef ' : ignored on left of 'Map' when no variable is declared
+     1>d:\gamesokoban\sokoban_with_c-sdl2.0-master\gamesdl2\mainobject.h(26): warning C4244: 'return' : conversion from 'const float' to 'int', possible loss of data
+     1>d:\gamesokoban\sokoban_with_c-sdl2.0-master\gamesdl2\mainobject.h(27): warning C4244: 'return' : conversion from 'const float' to 'int', possible loss of data
+     1>d:\gamesokoban\sokoban_with_c-sdl2.0-master\gamesdl2\main.cpp(92): warning C4244: 'argument' : conversion from 'int' to 'const float', possible loss of data
+     1>d:\gamesokoban\sokoban_with_c-sdl2.0-master\gamesdl2\main.cpp(93): warning C4244: 'argument' : conversion from 'int' to 'const float', possible loss of data
+     1>d:\gamesokoban\sokoban_with_c-sdl2.0-master\gamesdl2\main.cpp(124): warning C4244: 'argument' : conversion from 'int' to 'const float', possible loss of data
+     1>d:\gamesokoban\sokoban_with_c-sdl2.0-master\gamesdl2\main.cpp(125): warning C4244: 'argument' : conversion from 'int' to 'const float', possible loss of data
+     1>d:\gamesokoban\sokoban_with_c-sdl2.0-master\gamesdl2\main.cpp(135): warning C4018: '<' : signed/unsigned mismatch
+       Link:
+         D:\Visual Studio 20122\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\GameSokoban\sokoban_with_c-SDL2.0-master\Debug\GameSDl2.exe" /INCREMENTAL /NOLOGO SDL2.lib SDL2main.lib SDL2_image.lib SDL2_mixer.lib SDL2_ttf.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\GameSokoban\sokoban_with_c-SDL2.0-master\Debug\GameSDl2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\GameSokoban\sokoban_with_c-SDL2.0-master\Debug\GameSDl2.lib" /MACHINE:X86 Debug\BaseObject.obj
+         Debug\CommonFunc.obj
+         Debug\CrateObject.obj
+         Debug\game_map.obj
+         Debug\ImpTimer.obj
+         Debug\main.obj
+         Debug\MainObject.obj
+         Debug\PointObject.obj
+         Debug\stdafx.obj
+         GameSDl2.vcxproj -> D:\GameSokoban\sokoban_with_c-SDL2.0-master\Debug\GameSDl2.exe
+     1>Done Building Project "D:\GameSokoban\sokoban_with_c-SDL2.0-master\GameSDl2\GameSDl2.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.90
